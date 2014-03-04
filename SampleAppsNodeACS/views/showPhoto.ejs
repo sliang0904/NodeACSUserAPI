@@ -1,0 +1,16 @@
+<% 	var message; 
+	if(message) { %>
+	<%= message %>
+<% } %>
+
+<p> <%= photo.filename %> </p>
+<% if(photo.processed) {%>
+ <img src=<%= photo.urls.square_75 %> /><br/>
+ <img src=<%= photo.urls.small_240 %> />
+<% } else { %>
+<form action="/showPhoto" method="post">
+<div><input name="photo_id" placeholder="show photo" title="show photo" value=<%= photo.id %> required/></div>
+<div><input type="submit" value="show"/></div>
+</form>
+
+<% } %>

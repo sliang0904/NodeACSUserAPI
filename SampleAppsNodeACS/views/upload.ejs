@@ -1,0 +1,10 @@
+<% 	var message; 
+	if(message) { %>
+	<%= message %>
+<% } %>
+
+<form action="/upload" method="post" enctype="multipart/form-data">
+<div><input type="file" name="filename" placeholder="file1" title="file1" required/></div>
+<div><input type="submit" value="upload"/></div>
+</form>
+<div><a href="/signup">signup</div>

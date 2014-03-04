@@ -1,0 +1,27 @@
+{
+  "name": "test_register",
+  "version": "0.1.0",
+  "description": "",
+  "framework": "mvc",
+  "main": "app.js",
+  "logfile" : "users.log",
+  "keywords": [
+  ],
+  "author": "",
+  "maintainers": [
+  ],
+  "contributors": [
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "preferGlobal": false,
+  "dependencies": {
+  },
+  "license":"",
+  "private": true,
+  "engines" : { "node" : ">=0.8 <0.10.22" 
+  }
+}
+
